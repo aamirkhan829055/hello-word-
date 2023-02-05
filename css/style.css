@@ -1,0 +1,25 @@
+*{padding: 0px;
+margin: 0px;
+box-sizing: border-box;}
+
+
+header{
+    padding:20px 0px;
+    background-color:red;}
+
+    .container{width: 1140px;
+         margin: 0 auto;}
+    .col-1{float: left;}
+    .col-2{float: right;}
+     .row::after{ display: table;
+         clear: both; 
+         content: "";}
+
+
+     .ul-1{list-style:none; }
+     .ul-1 li{display: inline-block;}
+     .ul-1 li a{text-decoration: none;
+         display: inline-block;
+          padding: 10px;}
+
+         
